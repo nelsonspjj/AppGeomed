@@ -1,0 +1,161 @@
+{
+  "project_info": {
+    "project_number": "66292373374",
+    "firebase_url": "https://momatende.firebaseio.com",
+    "project_id": "momatende",
+    "storage_bucket": "momatende.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66292373374:android:f8c7d42063349914",
+        "android_client_info": {
+          "package_name": "firebase.curso.com.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66292373374-6kd7740gbnc9bm5b03m1jlubm97ff383.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrKYR8TcqLk1L_DYkUcs-PxDydQIv8xaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66292373374:android:763ed95f9067a16f",
+        "android_client_info": {
+          "package_name": "webservice.curso.com.teste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66292373374-99mlcqk4fiq2j1jv6bsth1uovuqo7tps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "webservice.curso.com.teste",
+            "certificate_hash": "d12cacbef9ef6b398bde17c80840da258de4d5a2"
+          }
+        },
+        {
+          "client_id": "66292373374-6kd7740gbnc9bm5b03m1jlubm97ff383.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrKYR8TcqLk1L_DYkUcs-PxDydQIv8xaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66292373374-6kd7740gbnc9bm5b03m1jlubm97ff383.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66292373374:android:69861acca6daa8c3",
+        "android_client_info": {
+          "package_name": "webservice.curso.com.storage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66292373374-f5vs13daggkiqgnpgatstus3vdsn5v6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "webservice.curso.com.storage",
+            "certificate_hash": "d12cacbef9ef6b398bde17c80840da258de4d5a2"
+          }
+        },
+        {
+          "client_id": "66292373374-6kd7740gbnc9bm5b03m1jlubm97ff383.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrKYR8TcqLk1L_DYkUcs-PxDydQIv8xaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66292373374-6kd7740gbnc9bm5b03m1jlubm97ff383.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66292373374:android:e84ee69281aac6e2",
+        "android_client_info": {
+          "package_name": "com.example.desenvolvimento.teste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66292373374-6kd7740gbnc9bm5b03m1jlubm97ff383.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrKYR8TcqLk1L_DYkUcs-PxDydQIv8xaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

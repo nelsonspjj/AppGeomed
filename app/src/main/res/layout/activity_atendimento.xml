@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorControlHighlight"
+    tools:context="com.example.desenvolvimento.teste.AtendimentoActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Atendimento"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Gênero"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="62dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/obs"
+        android:layout_alignStart="@+id/obs" />
+
+    <ImageView
+        android:id="@+id/btnanexar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/cvitima2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="445dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/btfinalizar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="168dp"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/btfinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Atendimento"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="350dp"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/obs"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12" />
+
+    <RadioGroup
+
+        android:id="@+id/rdgrupgenero"
+        android:layout_width="60dp"
+
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="12dp">
+
+
+        <RadioButton
+            android:id="@+id/rdbuttonM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rdgrupgenero"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_weight="1"
+            android:text="M" />
+
+        <RadioButton
+            android:id="@+id/rdbuttonF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Avaliação Primária"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_below="@+id/rdgrupgenero"
+        android:layout_toLeftOf="@+id/rdgrupgenero"
+        android:layout_toStartOf="@+id/rdgrupgenero" />
+
+    <RadioGroup
+        android:id="@+id/rdgrupoavaliacao"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_alignBottom="@+id/rdgrupopulso">
+
+        <RadioButton
+            android:id="@+id/btconciente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conciente" />
+
+        <RadioButton
+            android:id="@+id/btinconciente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inconciente" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:text="Pulso"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/rdgrupopulso"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10">
+
+        <RadioButton
+            android:id="@+id/Simpulso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sim" />
+
+        <RadioButton
+            android:id="@+id/Naopulso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respiração"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/rdgrupoavaliacao"
+        android:layout_alignLeft="@+id/rdgrupoavaliacao"
+        android:layout_alignStart="@+id/rdgrupoavaliacao" />
+
+    <RadioGroup
+        android:id="@+id/rdgruporespiracao"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/textView11">
+
+        <RadioButton
+            android:id="@+id/Naorespiracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não" />
+
+        <RadioButton
+            android:id="@+id/Simrespiracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sim" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hemorragia"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignLeft="@+id/rdgrupohemorragia"
+        android:layout_alignStart="@+id/rdgrupohemorragia" />
+
+    <RadioGroup
+        android:id="@+id/rdgrupohemorragia"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/rdgrupopulso"
+        android:layout_alignStart="@+id/rdgrupopulso"
+        android:layout_below="@+id/textView12">
+
+        <RadioButton
+            android:id="@+id/Simhemorragia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sim" />
+
+        <RadioButton
+            android:id="@+id/Naohemorragia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spnopcao"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layerType="hardware"
+        android:layoutMode="clipBounds"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/rdgrupopulso"
+        android:layout_toRightOf="@+id/rdgrupopulso" />
+
+    <EditText
+        android:id="@+id/obs"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:singleLine="false"
+        android:layout_below="@+id/rdgruporespiracao"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obs:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/obs"
+        android:layout_alignBottom="@+id/obs"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <Spinner
+        android:id="@+id/spnocorrencia"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Ocorrência"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anexar Imagem"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_above="@+id/btfinalizar"
+        android:layout_alignLeft="@+id/btnanexar"
+        android:layout_alignStart="@+id/btnanexar"
+        android:layout_alignRight="@+id/spnocorrencia"
+        android:layout_alignEnd="@+id/spnocorrencia" />
+
+    <Button
+        android:id="@+id/btsair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:layout_below="@+id/btfinalizar"
+        android:layout_alignLeft="@+id/obs"
+        android:layout_alignStart="@+id/obs" />
+
+
+</android.widget.RelativeLayout>

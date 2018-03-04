@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.desenvolvimento.teste.MainActivity">
+
+    <Button
+        android:id="@+id/btniniciarid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnInformadoid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Entrar"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/btnInformadoid"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="Fique Informado"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btniniciarid"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:background="@drawable/logo"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="GeoMed"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

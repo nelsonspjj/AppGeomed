@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/info"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.desenvolvimento.teste.FiqueInformadoActivity">
+
+    <Button
+        android:id="@+id/btvoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:background="@color/colorPrimary"
+        android:text="Voltar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</android.widget.RelativeLayout>
